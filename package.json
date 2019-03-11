@@ -1,0 +1,24 @@
+{
+  "name": "chemicaltools-bot",
+  "version": "1.0.0",
+  "description": "A bot for Chemical Tools.",
+  "main": "index.js",
+  "repository": "https://github.com/njzjz/chemicaltools-bot",
+  "author": "Jinzhe Zeng",
+  "license": "MIT",
+  "dependencies": {
+    "chemicaltools": "^1.0.15",
+    "i18next": "^15.0.6",
+    "string-format": "^2.0.0"
+  },
+  "devDependencies": {
+    "codecov": "^3.2.0",
+    "full-icu": "^1.2.1",
+    "mocha": "^6.0.2",
+    "nyc": "^13.3.0"
+  },
+  "scripts": {
+    "test": "NODE_ICU_DATA='node_modules/full-icu' nyc mocha test/test",
+    "coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov"
+  }
+}

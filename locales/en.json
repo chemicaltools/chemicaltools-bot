@@ -1,0 +1,29 @@
+{
+    "translation": {
+        "help": "Chemical Tools supports the following functions:\n1. Element Search\nInput element symbol/IUPAC name/atomic number to search a element. Input 'element' to see all elements.\ne.g. 72\ne.g. Hafnium\n2. Mass Calculation\nInput chemical formula to calculate the mass.\ne.g. (NH4)6Mo7O24\n3.Acid-Base Calculation\nInput [HA (or BOH)] [Analytical concentration] [pKa (or pKb)] to calculate solution composition.\ne.g. HA 0.1 2.148 7.198 12.319\n4. Gas Calculation\nInput unknown (p, V, n, T) and enter the known quantities in p, V, n, T in sequence to calculate the unknown.\ne.g. n 101 1 298\n5. Deviation Calculation\nEnter a set of data to calculate its deviation.\ne.g. 0.3414 0.3423 0.3407",
+        "element": {
+            "name": "Chinese name",
+            "symbol": "Symbol",
+            "iupac": "IUPAC name",
+            "number": "Atomic number",
+            "mass": "Mass",
+            "origin": "Origin of IUPAC name"
+        },
+        "elementper":"{0}: {1}\n",
+        "wronginput": "Your input is wrong!",
+        "masshead": "{0}\nMass={1}",
+        "massper": "\n{0}(Symbol: {2}), {3} atoms whose mass is {4}, with a mass fraction of {5}%;",
+        "wikipedia": "\n<a href='https://en.wikipedia.org/wiki/{1}'>Visit Wikipedia</a>",
+        "period":".",
+        "pH": "\nThe pH of the solution is {0}.",
+        "gas": "Calculated {0}={1}{2}",
+        "deviation": {
+            "input": "Input data",
+            "average": "Average",
+            "ad": "Average deviation",
+            "rad": "Relative average deviation",
+            "sd": "Standard deviation",
+            "rsd": "Relative standard deviation"
+         }
+    }
+}
