@@ -309,10 +309,10 @@ code-point-at@^1.0.0:
   resolved "http://registry.npm.taobao.org/code-point-at/download/code-point-at-1.1.0.tgz#0d070b4d043a5bea33a2f1a40e2edb3d9a4ccf77"
   integrity sha1-DQcLTQQ6W+ozovGkDi7bPZpMz3c=
 
-codecov@^3.2.0:
+codecov@3.2.0:
   version "3.2.0"
-  resolved "http://registry.npm.taobao.org/codecov/download/codecov-3.2.0.tgz#4465ee19884528092d8c313e1f9e4bdc7d3065cd"
-  integrity sha1-RGXuGYhFKAktjDE+H55L3H0wZc0=
+  resolved "https://registry.yarnpkg.com/codecov/-/codecov-3.2.0.tgz#4465ee19884528092d8c313e1f9e4bdc7d3065cd"
+  integrity sha512-3NJvNARXxilqnqVfgzDHyVrF4oeVgaYW1c1O6Oi5mn93exE7HTSSFNiYdwojWW6IwrCZABJ8crpNbKoo9aUHQw==
   dependencies:
     argv "^0.0.2"
     ignore-walk "^3.0.1"
@@ -665,10 +665,10 @@ fs.realpath@^1.0.0:
   resolved "http://registry.npm.taobao.org/fs.realpath/download/fs.realpath-1.0.0.tgz#1504ad2523158caa40db4a2787cb01411994ea4f"
   integrity sha1-FQStJSMVjKpA20onh8sBQRmU6k8=
 
-full-icu@^1.2.1:
+full-icu@1.2.1:
   version "1.2.1"
-  resolved "http://registry.npm.taobao.org/full-icu/download/full-icu-1.2.1.tgz#28d7f1caafb14cac262364ca584fe7f2044a4ab2"
-  integrity sha1-KNfxyq+xTKwmI2TKWE/n8gRKSrI=
+  resolved "https://registry.yarnpkg.com/full-icu/-/full-icu-1.2.1.tgz#28d7f1caafb14cac262364ca584fe7f2044a4ab2"
+  integrity sha512-E2s1b4GVbt8PyG+iaRN6ks8N0Oy2LOJz7SIMUwWWWx7Mr5Z08hKkfpkKQbOtOGqzkFpckDJHjjZ8qfigN2W86A==
 
 function-bind@^1.1.1:
   version "1.1.1"
@@ -1302,10 +1302,10 @@ mkdirp@0.5.1, mkdirp@^0.5.0:
   dependencies:
     minimist "0.0.8"
 
-mocha@^6.0.2:
+mocha@6.0.2:
   version "6.0.2"
-  resolved "http://registry.npm.taobao.org/mocha/download/mocha-6.0.2.tgz#cdc1a6fdf66472c079b5605bac59d29807702d2c"
-  integrity sha1-zcGm/fZkcsB5tWBbrFnSmAdwLSw=
+  resolved "https://registry.yarnpkg.com/mocha/-/mocha-6.0.2.tgz#cdc1a6fdf66472c079b5605bac59d29807702d2c"
+  integrity sha512-RtTJsmmToGyeTznSOMoM6TPEk1A84FQaHIciKrRqARZx+B5ccJ5tXlmJzEKGBxZdqk9UjpRsesZTUkZmR5YnuQ==
   dependencies:
     ansi-colors "3.2.3"
     browser-stdout "1.3.1"
@@ -1397,10 +1397,10 @@ number-is-nan@^1.0.0:
   resolved "http://registry.npm.taobao.org/number-is-nan/download/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
   integrity sha1-CXtgK1NCKlIsGvuHkDGDNpQaAR0=
 
-nyc@^13.3.0:
+nyc@13.3.0:
   version "13.3.0"
-  resolved "http://registry.npm.taobao.org/nyc/download/nyc-13.3.0.tgz#da4dbe91a9c8b9ead3f4f3344c76f353e3c78c75"
-  integrity sha1-2k2+kanIuerT9PM0THbzU+PHjHU=
+  resolved "https://registry.yarnpkg.com/nyc/-/nyc-13.3.0.tgz#da4dbe91a9c8b9ead3f4f3344c76f353e3c78c75"
+  integrity sha512-P+FwIuro2aFG6B0Esd9ZDWUd51uZrAEoGutqZxzrVmYl3qSfkLgcQpBPBjtDFsUQLFY1dvTQJPOyeqr8S9GF8w==
   dependencies:
     archy "^1.0.0"
     arrify "^1.0.1"
