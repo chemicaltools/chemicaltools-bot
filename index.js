@@ -117,7 +117,7 @@ var replyi18 = function (input, lang = 'en') {
     i18next.init({
         lng: lang,
         resources: {
-            [lang]: require('./locales/{0}.json'.format(lang)),
+            [lang]: require(__dirname + '/locales/{0}.json'.format(lang)),
         }
     })
     return reply(input)
