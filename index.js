@@ -1,6 +1,8 @@
 const chemicaltools = require('chemicaltools')
 const i18next = require('i18next')
 const format = require('string-format')
+const en = require('./locales/en')
+const zh = require('./locales/zh')
 format.extend(String.prototype, {})
 
 var reply = function (input) {
@@ -117,7 +119,8 @@ var replyi18 = function (input, lang = 'en') {
     i18next.init({
         lng: lang,
         resources: {
-            [lang]: require(__dirname + '/locales/{0}.json'.format(lang)),
+            en: en,
+            zh: zh
         }
     })
     return reply(input)
