@@ -8,16 +8,16 @@ format.extend(String.prototype, {})
 var reply = function (input) {
     s = input.split(' ')
     if (s.length == 1) {
-        if (input.toLowerCase() == "help" || input.toLowerCase() == "h" || input == "帮助") return i18next.t("help")
-        if (input.toLowerCase() == "element" || input == "元素") return anwserElementTable()
+        if (["help", "h", "/help", "帮助"].indexOf(input.toLowerCase()) > -1) return i18next.t("help")
+        if (["element", "/element", "元素"].indexOf(input.toLowerCase()) > -1) return anwserElementTable()
         result = chemicaltools.searchElement(input)
         if (result) return anwserElement(result)
         result = chemicaltools.calculateMass(input)
         if (result) return anwserMass(result)
         return i18next.t("wronginput")
     } else {
-        if (s[0] == "HA" || s[0] == "BOH") return anwserAcid(s)
-        if (s[0] == "p" || s[0] == "V" || s[0] == "n" || s[0] == "T") return anwserGas(s)
+        if (["HA", "BOH"].indexOf(s[0]) > -1) return anwserAcid(s)
+        if (["p", "V", "n", "T"].indexOf(s[0]) > -1) return anwserGas(s)
         return anwserDeviation(s)
     }
 }
@@ -35,7 +35,7 @@ var anwserElement = function (info) {
 var anwserElementTable = function () {
     var output = ''
     chemicaltools.elementinfo.forEach(function (info) {
-        output += "{0}.{1}{2} {3} {4}".format(info.number, info.name, info.symbol, info.iupac, info.mass)
+        output += "{0}.{1}{2} {3} {4}\n".format(info.number, info.name, info.symbol, info.iupac, info.mass)
     })
     return output
 }
