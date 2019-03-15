@@ -8,7 +8,7 @@
   "license": "MIT",
   "dependencies": {
     "chemicaltools": "^1.0.15",
-    "i18next": "^15.0.6",
+    "i18next": "^15.0.7",
     "string-format": "^2.0.0"
   },
   "devDependencies": {
