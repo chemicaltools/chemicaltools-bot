@@ -166,10 +166,10 @@
   resolved "http://registry.npm.taobao.org/@semantic-release/error/download/@semantic-release/error-2.2.0.tgz#ee9d5a09c9969eade1ec864776aeda5c5cddbbf0"
   integrity sha1-7p1aCcmWnq3h7IZHdq7aXFzdu/A=
 
-"@semantic-release/git@^7.0.8":
+"@semantic-release/git@7.0.8":
   version "7.0.8"
-  resolved "http://registry.npm.taobao.org/@semantic-release/git/download/@semantic-release/git-7.0.8.tgz#b9e1af094a19d4e96974b90a969ad0e6782c8727"
-  integrity sha1-ueGvCUoZ1OlpdLkKlprQ5ngshyc=
+  resolved "https://registry.yarnpkg.com/@semantic-release/git/-/git-7.0.8.tgz#b9e1af094a19d4e96974b90a969ad0e6782c8727"
+  integrity sha512-sA+XoPU6GrV+A4YswO0b5JWL1KbzmyyaqUK6Y2poDkIVPlj+oQdi/stpKz/bKF5z9ChMGP87OVPMeUyXGaNFtw==
   dependencies:
     "@semantic-release/error" "^2.1.0"
     aggregate-error "^2.0.0"
@@ -4397,10 +4397,10 @@ safe-regex@^1.1.0:
   resolved "http://registry.npm.taobao.org/safer-buffer/download/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
   integrity sha1-RPoWGwGHuVSd2Eu5GAL5vYOFzWo=
 
-semantic-release@^15.13.3:
+semantic-release@15.13.3:
   version "15.13.3"
-  resolved "http://registry.npm.taobao.org/semantic-release/download/semantic-release-15.13.3.tgz#412720b9c09f39f04df67478fa409a914107e05b"
-  integrity sha1-QScgucCfOfBN9nR4+kCakUEH4Fs=
+  resolved "https://registry.yarnpkg.com/semantic-release/-/semantic-release-15.13.3.tgz#412720b9c09f39f04df67478fa409a914107e05b"
+  integrity sha512-cax0xPPTtsxHlrty2HxhPql2TTvS74Ni2O8BzwFHxNY/mviVKEhI4OxHzBYJkpVxx1fMVj36+oH7IlP+SJtPNA==
   dependencies:
     "@semantic-release/commit-analyzer" "^6.1.0"
     "@semantic-release/error" "^2.2.0"
