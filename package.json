@@ -22,5 +22,14 @@
   "scripts": {
     "test": "NODE_ICU_DATA='node_modules/full-icu' nyc mocha test/test",
     "coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov"
+  },
+  "release": {
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/npm",
+      "@semantic-release/github",
+      "@semantic-release/git"
+    ]
   }
 }
