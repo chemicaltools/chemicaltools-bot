@@ -3,8 +3,7 @@ node_js: 11
 cache: yarn
 after_success: yarn coverage
 deploy:
-  provider: npm
-  email: $email
-  api_key: $npmtoken
+  provider: script
+  script: npx semantic-release
   on:
     branch: master
