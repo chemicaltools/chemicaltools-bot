@@ -15,7 +15,7 @@
     "@semantic-release/git": "7.0.8",
     "codecov": "3.3.0",
     "full-icu": "1.2.1",
-    "mocha": "6.0.2",
+    "mocha": "6.1.0",
     "nyc": "13.3.0",
     "semantic-release": "15.13.3"
   },
