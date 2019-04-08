@@ -7,7 +7,7 @@
   "author": "Jinzhe Zeng",
   "license": "MIT",
   "dependencies": {
-    "chemicaltools": "^1.0.15",
+    "chemicaltools": "^1.2.4",
     "i18next": "^15.0.7",
     "string-format": "^2.0.0"
   },
