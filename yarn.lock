@@ -773,9 +773,9 @@ chalk@^2.0.0, chalk@^2.0.1, chalk@^2.3.2, chalk@^2.4.1:
     supports-color "^5.3.0"
 
 chemicaltools@^1.2.4:
-  version "1.2.4"
-  resolved "https://registry.yarnpkg.com/chemicaltools/-/chemicaltools-1.2.4.tgz#e5ecd3fe418f58ea2c06d1c1f85094139a8927c9"
-  integrity sha512-76/DMB6Qkdo9TmXjPNt7KpJqx2yCOt7196cmnPIxQOANWiPfEpDpyT5FWRSp9zz0gDmh2UMvmUwEvInWpEOynQ==
+  version "1.2.6"
+  resolved "https://registry.yarnpkg.com/chemicaltools/-/chemicaltools-1.2.6.tgz#0bdfd981f4a8b5a32e373555780de883a3a81508"
+  integrity sha512-XMVQAY7bH/w2YGK0cMuKvPbu7zoFsez00MR5QzTlCcW359tyiMzrlQf6HCkx36yAaNt/BNq7zsbZ8Z2tGeLh4w==
   dependencies:
     tiny-pinyin "^1.3.0"
 
