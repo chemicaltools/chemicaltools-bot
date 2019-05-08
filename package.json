@@ -17,7 +17,7 @@
     "full-icu": "1.2.1",
     "mocha": "6.1.4",
     "nyc": "14.1.0",
-    "semantic-release": "15.13.3"
+    "semantic-release": "15.13.12"
   },
   "scripts": {
     "test": "NODE_ICU_DATA='node_modules/full-icu' nyc mocha test/test",
