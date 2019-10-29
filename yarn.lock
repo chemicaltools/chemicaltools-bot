@@ -1904,10 +1904,10 @@ humanize-ms@^1.2.1:
   dependencies:
     ms "^2.0.0"
 
-i18next@^18.0.0:
-  version "18.0.1"
-  resolved "https://registry.yarnpkg.com/i18next/-/i18next-18.0.1.tgz#10841209f6983df4d8e367204da403d8cbc609cf"
-  integrity sha512-KWd9qMFXw0qjxF7cTAqQselPCYoHfaLvBs8c6JcNzaQKVxbAlE/wv9EZXPy+JlKUcXCT0qgjcmxrJjmbnEp60A==
+i18next@^19.0.0:
+  version "19.0.0"
+  resolved "https://registry.yarnpkg.com/i18next/-/i18next-19.0.0.tgz#5418207d7286128e6cfe558e659fa8c60d89794b"
+  integrity sha512-xxNKNOqLdGP/M+/fzzBOhcc9hCAqv6gDhHq0xbYz/Vlz5PlMfr9P1LbBvmk7RkZjYoh/kyM1tnfSl+sJ2VaD0Q==
   dependencies:
     "@babel/runtime" "^7.3.1"
 
@@ -3222,7 +3222,6 @@ npm@^6.10.3:
     cmd-shim "^3.0.3"
     columnify "~1.5.4"
     config-chain "^1.1.12"
-    debuglog "*"
     detect-indent "~5.0.0"
     detect-newline "^2.1.0"
     dezalgo "~1.0.3"
@@ -3237,7 +3236,6 @@ npm@^6.10.3:
     has-unicode "~2.0.1"
     hosted-git-info "^2.8.5"
     iferr "^1.0.2"
-    imurmurhash "*"
     infer-owner "^1.0.4"
     inflight "~1.0.6"
     inherits "^2.0.4"
@@ -3256,14 +3254,8 @@ npm@^6.10.3:
     libnpx "^10.2.0"
     lock-verify "^2.1.0"
     lockfile "^1.0.4"
-    lodash._baseindexof "*"
     lodash._baseuniq "~4.6.0"
-    lodash._bindcallback "*"
-    lodash._cacheindexof "*"
-    lodash._createcache "*"
-    lodash._getnative "*"
     lodash.clonedeep "~4.5.0"
-    lodash.restparam "*"
     lodash.union "~4.6.0"
     lodash.uniq "~4.5.0"
     lodash.without "~4.4.0"
