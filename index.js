@@ -6,11 +6,11 @@ const zh = require('./locales/zh')
 format.extend(String.prototype, {})
 
 var reply = function (input) {
-    s = input.split(' ')
+    var s = input.split(' ')
     if (s.length == 1) {
         if (["help", "h", "/help", "帮助"].indexOf(input.toLowerCase()) > -1) return i18next.t("help")
         if (["element", "/element", "元素"].indexOf(input.toLowerCase()) > -1) return anwserElementTable()
-        result = chemicaltools.searchElement(input)
+        var result = chemicaltools.searchElement(input)
         if (result) return anwserElement(result)
         result = chemicaltools.calculateMass(input)
         if (result) return anwserMass(result)
@@ -49,7 +49,7 @@ var anwserMass = function (result) {
 }
 
 var anwserAcid = function (s) {
-    AorB = (s[0] == "HA" ? true : false)
+    var AorB = (s[0] == "HA" ? true : false)
     var result = chemicaltools.calculateAcid(parseFloat(s[1]), s.slice(2).map(parseFloat), AorB)
     var output = "{0}, c={1}mol/L, ".format(s[0], s[1])
     var i = 1;
@@ -65,14 +65,14 @@ var anwserAcid = function (s) {
 }
 
 var anwserGas = function (s) {
-    keys = ["p", "V", "n", "T"]
-    input = { p: null, V: null, n: null, T: null }
-    unit = { p: "kPa", V: "L", n: "mol", T: "K" }
+    var keys = ["p", "V", "n", "T"]
+    var input = { p: null, V: null, n: null, T: null }
+    var unit = { p: "kPa", V: "L", n: "mol", T: "K" }
     var i = 1, output = ''
     for (var key in input) {
         input[key] = (s[0] == key ? null : s[i++])
     }
-    result = chemicaltools.calculateGas(...keys.map(function (x) {
+    var result = chemicaltools.calculateGas(...keys.map(function (x) {
         return input[x]
     }))
     for (var key in result) {
@@ -99,7 +99,7 @@ var anwserDeviation = function (x) {
         numnum = Math.min(numnum, len)
         pointnum = Math.min(pointnum, pointlen)
     });
-    result = chemicaltools.calculateDeviation(x.map(parseFloat))
+    var result = chemicaltools.calculateDeviation(x.map(parseFloat))
     var outputinfo = [
         { name: i18next.t("deviation.input"), value: x.join(", ") },
         { name: i18next.t("deviation.average"), value: result.average.toFixed(pointnum) },
