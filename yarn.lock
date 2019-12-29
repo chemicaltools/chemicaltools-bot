@@ -753,10 +753,10 @@ chalk@^2.0.0, chalk@^2.0.1, chalk@^2.3.2, chalk@^2.4.1:
     escape-string-regexp "^1.0.5"
     supports-color "^5.3.0"
 
-chemicaltools@^1.2.4:
-  version "1.2.9"
-  resolved "https://registry.yarnpkg.com/chemicaltools/-/chemicaltools-1.2.9.tgz#dc53a33f31f92d8a3d371d902575c038ef0576c2"
-  integrity sha512-kElSsNX1DdwmLhap/KDUo84cJM3XiCETCFYW6DRV5CAFjBSWGbL90m11k2ExoqpIxwa+8m19zJelr4xtg1YeVg==
+chemicaltools@^1.2.11:
+  version "1.2.11"
+  resolved "https://registry.yarnpkg.com/chemicaltools/-/chemicaltools-1.2.11.tgz#e6f810513d6780f15e3e3dc42ba9a2638dffcae6"
+  integrity sha512-77cGwuIrWMnj+D5y5joYvqoQoVu6oMagiaYN0YLVv2dq4GyGP7a1kCR2KzARiOgzFvKtKJT7p4Nw8oYcUYUIfA==
   dependencies:
     tiny-pinyin "^1.3.0"
 
