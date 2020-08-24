@@ -6,24 +6,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
-    - name: yarn install
-      uses: Borales/actions-yarn@master
+    - uses: actions/setup-node@v1
       with:
-        args: install
-    - name: yarn test
-      uses: Borales/actions-yarn@master
-      with:
-        args: test
-    - name: yarn coverage
-      uses: Borales/actions-yarn@master
+        node-version: 13
+    - run: yarn install
+    - run: yarn test
+    - run: yarn coverage
       env:
         CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
-      with:
-        args: coverage
-    - name: yarn exec semantic-release
-      uses: Borales/actions-yarn@master
+    - run: yarn exec semantic-release
       env:
         GH_TOKEN: ${{ secrets.GH_TOKEN }}
         NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-      with:
-        args: exec semantic-release
