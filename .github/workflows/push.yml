@@ -8,7 +8,7 @@ jobs:
     - uses: actions/checkout@master
     - uses: actions/setup-node@v3
       with:
-        node-version: 13
+        node-version: 16
     - run: yarn install
     - run: yarn test
     - run: yarn coverage
