@@ -13,7 +13,7 @@
         "wronginput": "输入错误！",
         "masshead": "{0}\n相对分子质量={1}",
         "massper": "\n{0}（符号：{2}），{3}个原子，原子量为{4}，质量分数为{5}%；",
-        "wikipedia": "\n<a href='https://en.wikipedia.org/wiki/{1}'>访问维基百科</a>",
+        "wikipedia": "\n<a href='https://www.qiuwenbaike.cn/wiki/{0}'>访问求闻百科</a>",
         "period":"。",
         "pH": "\n溶液的pH为{0}.",
         "gas": "计算得{0}={1}{2}",
