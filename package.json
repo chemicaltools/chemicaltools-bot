@@ -1,6 +1,6 @@
 {
   "name": "chemicaltools-bot",
-  "version": "1.0.80",
+  "version": "1.0.81",
   "description": "A bot for Chemical Tools.",
   "main": "index.js",
   "repository": "https://github.com/njzjz/chemicaltools-bot",
