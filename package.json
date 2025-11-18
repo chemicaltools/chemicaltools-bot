@@ -16,7 +16,7 @@
     "codecov": "3.8.3",
     "mocha": "10.8.2",
     "nyc": "15.1.0",
-    "semantic-release": "19.0.5"
+    "semantic-release": "25.0.2"
   },
   "scripts": {
     "test": "nyc mocha test/test",
