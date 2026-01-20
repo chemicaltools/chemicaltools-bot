@@ -111,7 +111,7 @@
   dependencies:
     "@babel/types" "^7.28.6"
 
-"@babel/runtime@^7.23.2":
+"@babel/runtime@^7.28.4":
   version "7.28.6"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.28.6.tgz#d267a43cb1836dc4d182cce93ae75ba954ef6d2b"
   integrity sha512-05WQkdpL9COIMz4LjTxGpPNCdlpyimKppYNoJ5Di5EUObifl8t4tuLuUBBZEpoLYOmfvIWrsp9fCl0HoPRVTdA==
@@ -1805,12 +1805,12 @@ humanize-ms@^1.2.1:
   dependencies:
     ms "^2.0.0"
 
-i18next@^23.0.0:
-  version "23.16.8"
-  resolved "https://registry.yarnpkg.com/i18next/-/i18next-23.16.8.tgz#3ae1373d344c2393f465556f394aba5a9233b93a"
-  integrity sha512-06r/TitrM88Mg5FdUXAKL96dJMzgqLE5dv3ryBAra4KCwD9mJ4ndOTS95ZuymIGoE+2hzfdaMak2X11/es7ZWg==
+i18next@^25.0.0:
+  version "25.8.0"
+  resolved "https://registry.yarnpkg.com/i18next/-/i18next-25.8.0.tgz#8b4ac516db016ebba70d2b68f5ba17e6ffcd4935"
+  integrity sha512-urrg4HMFFMQZ2bbKRK7IZ8/CTE7D8H4JRlAwqA2ZwDRFfdd0K/4cdbNNLgfn9mo+I/h9wJu61qJzH7jCFAhUZQ==
   dependencies:
-    "@babel/runtime" "^7.23.2"
+    "@babel/runtime" "^7.28.4"
 
 iconv-lite@^0.6.2:
   version "0.6.3"
